@@ -25,7 +25,6 @@
     width: 20px;
     height: 20px;
     background: rgba(232, 228, 228, 0.288);
-  
     top:-300px;
     animation: animate 30s linear infinite;
     border-radius: 20%;
