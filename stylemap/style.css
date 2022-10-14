@@ -140,7 +140,6 @@
   box-sizing: border-box;
 }
 html {
-  font-family: "Roboto Mono";
   font-size: 24px;
   scroll-behavior: smooth;
 }
@@ -153,13 +152,12 @@ section {
 }
 
 #home, #about, #projects, #contact{
-  height: 50vh;
+  height: 60vh;
 
 }
 
-
 #about, #projects, #contact{
-  margin-top: 20vh;
+  margin-top: 30vh;
 }
 
 
