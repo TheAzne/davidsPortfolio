@@ -1,0 +1,188 @@
+#background-img {
+    background-image: url("/stylemap/img/pic1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    /* background-color: #243b55; */
+  }
+
+  
+  .text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-center p {
+    color: rgb(255, 255, 255);
+    font-family:"Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+  
+  }
+  .name {
+    font-size: clamp(40px, 8vw, 60px);
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .fullstack {
+    font-size: 24px;
+    width: 700px;
+  }
+  
+  #navbarColor02 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 50px 20px 60px;
+    overflow: hidden;
+
+  }
+  
+  .nav-link {
+    color: hsl(0, 4%, 60%);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+  }
+  
+  .nav-link span {
+    transition: 0.5s ease-out;
+  }
+  .nav-link:hover span {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px #fff;
+  }
+  .nav-link .active {
+    color: #fff;
+    text-shadow: 0 0 50px #fff, 0 0 20px #fff, 0 0 20px #fff;
+  }
+  
+  .nav-link.active {
+    color: white;
+  }
+  
+  #contact {
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  
+  .social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+  }
+  .social img {
+    width: 100px;
+    height: 100px;
+  }
+  .linkedin a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .github a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .mail a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .projectsTitle {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+  .about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    align-self: center;
+  
+  }
+  
+  .about p{
+    display: flex;
+    justify-content: center;
+    font-family:"Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    line-height: 1.3;
+    font-size: 25px;
+    width: 700px;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto Mono";
+  font-size: 24px;
+  scroll-behavior: smooth;
+}
+section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#home, #about, #projects, #contact{
+  height: 50vh;
+
+}
+
+
+#about, #projects, #contact{
+  margin-top: 20vh;
+}
+
+
+nav .container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+nav .container ul li {
+  display: inline-block;
+}
+nav .container ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+nav .container ul li.active {
+  transition: 0.3s ease background-color;
+}
+nav .container ul li.active a {
+  color: rgb(255, 255, 255);
+}
+
+
