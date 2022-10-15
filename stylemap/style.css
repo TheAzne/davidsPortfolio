@@ -1,9 +1,8 @@
 #background-img {
-    background-image: url("/stylemap/img/pic.png");
+    background-image: url("./img/pic.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    /* background-color: #243b55; */
   }
 
   
