@@ -1,5 +1,5 @@
 #background-img {
-    background-image: url("stylemap/img/pic.png");
+    background-image: url("/stylemap/img/pic.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
